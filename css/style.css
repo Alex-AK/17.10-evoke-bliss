@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,350,400,700');
+
 body {
   font-family: Lato, sans-serif;
 }
@@ -18,6 +19,7 @@ h2 {
   h2 {
     font-size: 1.1em;
   }
+
   p {
     font-size: .9em;
   }
@@ -62,6 +64,7 @@ h2 {
     font-size: 1.9em;
     padding: 0 2%;
   }
+
   .sub-title {
     font-size: .75em;
     letter-spacing: 1px;
@@ -73,6 +76,7 @@ h2 {
     font-size: 1.6em;
     padding: 0 2%;
   }
+
   .sub-title {
     font-size: .6em;
   }
@@ -184,9 +188,11 @@ nav a {
     text-align: center;
     padding-top: 10px;
   }
+
   nav a {
     padding-left: 20px;
   }
+
   #logo {
     display: block;
     float: none;
@@ -301,15 +307,41 @@ p.read-time {
   padding-top: 50px;
 }
 
-.article:nth-child(1) {background: url('../photos/article-1.jpg');}
-.article:nth-child(2) {background: url('../photos/article-2.jpg');}
-.article:nth-child(3) {background: url('../photos/article-3.jpg');}
-.article:nth-child(4) {background: url('../photos/article-4.jpg');}
-.article:nth-child(5) {background: url('../photos/article-5.jpg');}
-.article:nth-child(6) {background: url('../photos/article-6.jpg');}
-.article:nth-child(7) {background: url('../photos/article-7.jpg');}
-.article:nth-child(8) {background: url('../photos/article-8.jpg');}
-.article:nth-child(9) {background: url('../photos/article-9.jpg');}
+.article:nth-child(1) {
+  background: url('../photos/article-1.jpg');
+}
+
+.article:nth-child(2) {
+  background: url('../photos/article-2.jpg');
+}
+
+.article:nth-child(3) {
+  background: url('../photos/article-3.jpg');
+}
+
+.article:nth-child(4) {
+  background: url('../photos/article-4.jpg');
+}
+
+.article:nth-child(5) {
+  background: url('../photos/article-5.jpg');
+}
+
+.article:nth-child(6) {
+  background: url('../photos/article-6.jpg');
+}
+
+.article:nth-child(7) {
+  background: url('../photos/article-7.jpg');
+}
+
+.article:nth-child(8) {
+  background: url('../photos/article-8.jpg');
+}
+
+.article:nth-child(9) {
+  background: url('../photos/article-9.jpg');
+}
 
 
 /********* About Page *********/
@@ -328,6 +360,7 @@ p.read-time {
     width: 175px;
     margin-top: 30px;
   }
+
   #about-right-box {
     margin: 0 5% 25% 5%;
   }
@@ -365,6 +398,8 @@ p.read-time {
 
 .article-content {
   padding: 0 17%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .article-split img {
@@ -427,18 +462,23 @@ p.read-time {
   .article-content img {
     height: 180px;
   }
+
   .article-content {
     padding: 0 8%;
   }
+
   .article-title h2 {
     font-size: 1.1em;
   }
+
   .list {
     padding: 5px 0 0 10px;
   }
+
   .indent {
     padding-left: 20px;
   }
+
   .full-width-text {
     clear: both;
   }
@@ -449,6 +489,7 @@ p.read-time {
     display: block;
     clear: left;
   }
+
   .article-split img {
     display: flex;
     float: none;
